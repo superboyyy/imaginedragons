@@ -1,0 +1,10 @@
+.img {
+    position: absolute;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border-width: 1px;
+    border-style: hidden;
+    overflow: hidden;
+}

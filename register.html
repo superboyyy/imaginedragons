@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/a.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Imagine Dragons</h1>
+        </div>
+
+        <div class="nav">
+            <h4><a href="index.html">首页</a>&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+                <a href="news.html">新闻</a>&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+                <a href="music.html">音乐</a>&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+                <a href="photos.html">图片</a>&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+                <a href="mv.html">MV</a>&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+                <a href="calander.html">巡演</a>&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+                <a href="about.html">关于</a>
+            </h4>
+            <hr>
+        </div>
+    </header>
+
+    <main>
+        <form action="registerdone.html" name="loginForm" method="post" enctype="text/plain" style="width: 80%;margin: auto;text-align: center;">
+            <fieldset>
+                <legend>注册</legend>
+                <label for="name">用户名（必填）:</label>
+                <input id="name" type="text" placeholder="请在此处输入您的账号:" minlength="3" maxlength="18" required><br>
+                <label for="password">密码（必填）:</label>
+                <input id="password" type="password" placeholder="请在此处输入您的密码:" minlength="3" maxlength="18" required>
+                <br>
+                性别：
+                <input type="radio" name="sex" id="male" required>
+                <label for="male">男</label>
+                <input type="radio" name="sex" id="female" required>
+                <label for="female">女</label>
+                <br>
+                生日:
+                <select name="month" id="month">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <label for="month">月</label>
+                <select name="day" id="day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <label for="day">日</label>
+                <br>
+                <label for="email">电子邮箱（必填）：</label>
+                <input type="text" name="email" id="email" placeholder="请在此处输入您的邮箱：" required>
+                <br>
+                <label for="suggestions">对本网站的建议:</label>
+                <input type="textarea" name="suggestions" id="suggestions" value="请在此处输入您的建议：">
+                <br>
+                <input type="checkbox" name="allow" id="allow" required>
+                <label for="allow">我同意本网站的<a href="404.html">使用条例</a></label>
+                <br>
+                <input type="checkbox" name="allow" id="allow2" required>
+                <label for="allow2">我同意本网站给我发送相关咨询及广告</label> 
+                <br><input type="submit">
+                
+            </fieldset>
+    </main>
+    
+    <footer>
+        <div class="title" style="margin-top: 300px;">
+            <hr>
+            <h3><a href="login.html">Login</a>&emsp;&emsp;<a href="register.html">Register</a></h3>
+            <h5>Please subscribe us on Weibo,Twitter and instagram.</h5>
+        </div>
+    </footer>
+</body>
+
+</html>

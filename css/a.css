@@ -1,0 +1,6 @@
+a:hover {
+    color: gray;
+}
+a:active {
+    color: pink;
+}

@@ -1,0 +1,15 @@
+.text {
+    width: 100%;
+    margin: 2em;
+}
+div p {
+    display: inline-block;
+    float: left;
+    width: 340px;
+}
+div img {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 150px;
+}
